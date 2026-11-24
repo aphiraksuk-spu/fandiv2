@@ -1,0 +1,62 @@
+[
+  {
+    "id": "salt-40",
+    "name": "Fan Di Salt",
+    "mood": "fresh",
+    "type": "spray",
+    "size": "40 กรัม",
+    "price": 49,
+    "image": "images/salt.jpg",
+    "description": "สูตรเกลือธรรมชาติ ให้ความสะอาดสดชื่นอย่างอ่อนโยน ขนาดพกพาสะดวก"
+  },
+  {
+    "id": "salt-100",
+    "name": "Fan Di Salt",
+    "mood": "fresh",
+    "type": "spray",
+    "size": "100 กรัม",
+    "price": 79,
+    "image": "images/salt.jpg",
+    "description": "สูตรเกลือธรรมชาติ ให้ความสะอาดสดชื่นอย่างอ่อนโยน ขนาดคุ้มค่าสำหรับใช้ที่บ้าน"
+  },
+  {
+    "id": "charcoal-40",
+    "name": "Fan Di Charcoal",
+    "mood": "confident",
+    "type": "spray",
+    "size": "40 กรัม",
+    "price": 49,
+    "image": "images/charcoal.jpg",
+    "description": "ผงถ่านธรรมชาติ ช่วยให้ลมหายใจสะอาดมั่นใจในทุกบทสนทนา ขนาดพกพาสะดวก"
+  },
+  {
+    "id": "charcoal-100",
+    "name": "Fan Di Charcoal",
+    "mood": "confident",
+    "type": "spray",
+    "size": "100 กรัม",
+    "price": 79,
+    "image": "images/charcoal.jpg",
+    "description": "ผงถ่านธรรมชาติ ช่วยให้ลมหายใจสะอาดมั่นใจในทุกบทสนทนา ขนาดคุ้มค่าสำหรับใช้ที่บ้าน"
+  },
+  {
+    "id": "mint-40",
+    "name": "Fan Di Mint",
+    "mood": "fresh",
+    "type": "spray",
+    "size": "40 กรัม",
+    "price": 49,
+    "image": "images/mint.jpg",
+    "description": "มินต์เย็นสดชื่นละมุน เติมความสบายให้ทุกช่วงเวลาของวัน ขนาดพกพาสะดวก"
+  },
+  {
+    "id": "mint-100",
+    "name": "Fan Di Mint",
+    "mood": "fresh",
+    "type": "spray",
+    "size": "100 กรัม",
+    "price": 79,
+    "image": "images/mint.jpg",
+    "description": "มินต์เย็นสดชื่นละมุน เติมความสบายให้ทุกช่วงเวลาของวัน ขนาดคุ้มค่าสำหรับใช้ที่บ้าน"
+  }
+]

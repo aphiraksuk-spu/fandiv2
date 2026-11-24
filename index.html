@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fan Di — ยาสีฟันที่เป็นคุณ</title>
+  <meta name="description" content="ยิ้มมั่นใจ หลับฝันดี ตื่นมาพร้อมความสดชื่นในแบบที่เป็นคุณ กับยาสีฟัน Fan Di">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .hero--full {
+      min-height: calc(100vh - 78px);
+      display: flex;
+      align-items: center;
+      padding-block: var(--space-xl);
+    }
+    .hero--full .container { display: block; text-align: center; }
+    .hero--full h1 {
+      font-family: var(--font-serif-th);
+      font-weight: 300;
+      font-size: clamp(2rem, 5vw, 3.6rem);
+      line-height: 1.6;
+      max-width: 18em;
+      margin-inline: auto;
+    }
+    .hero--full .mood-underline { margin-inline: auto; margin-block: var(--space-md) var(--space-lg); background: var(--color-cork); }
+    .hero--full .btn { margin-top: var(--space-xs); }
+
+    .mood-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: var(--color-cream);
+      border: 1px solid var(--color-line-soft);
+      border-radius: var(--radius);
+      padding: var(--space-lg) var(--space-md);
+      transition: var(--transition);
+    }
+    .mood-card:hover,
+    .mood-card:focus-visible {
+      border-color: var(--color-line);
+      transform: translateY(-4px);
+      outline: none;
+    }
+    .mood-card .mood-underline { margin: var(--space-sm) auto var(--space-md); }
+    .mood-card p { font-size: .9rem; line-height: 1.85; }
+    .mood-card__tag {
+      font-size: .72rem;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: var(--color-ink-soft);
+      margin-bottom: var(--space-md);
+    }
+    .mood-card__more {
+      margin-top: auto;
+      padding-top: var(--space-md);
+      font-size: .78rem;
+      letter-spacing: .18em;
+      color: var(--color-cork-deep);
+    }
+    .mood-card svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Fan Di</a>
+      <nav class="nav">
+        <a href="index.html" class="active">หน้าแรก</a>
+        <a href="product.html">สินค้า</a>
+        <a href="order.html">สั่งซื้อ</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="cork-band"></div>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero hero--full">
+      <div class="container">
+        <span class="eyebrow">Fan Di Toothpaste</span>
+        <h1>ยิ้มมั่นใจ หลับฝันดี ตื่นมาพร้อมความสดชื่นในแบบที่เป็นคุณ กับยาสีฟัน Fan Di</h1>
+        <span class="mood-underline"></span>
+        <a class="btn" href="product.html">ดูสินค้าทั้งหมด</a>
+      </div>
+    </section>
+
+    <!-- Moods -->
+    <section class="section section--white">
+      <div class="container">
+        <div class="section-head text-center">
+          <span class="eyebrow">Moods</span>
+          <h2>เลือกตาม Mood ของคุณ</h2>
+        </div>
+
+        <div class="features">
+          <a class="feature mood-card" data-mood="fresh" href="product.html?mood=fresh">
+            <span class="feature__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19c0-8 5-13 14-14 0 9-5 14-13 14"/><path d="M5 19l8-8"/></svg>
+            </span>
+            <span class="mood-card__tag">Fresh</span>
+            <h3>สดชื่น กระปรี้กระเปร่า ปลุกพลัง</h3>
+            <span class="mood-underline"></span>
+            <p>ระเบิดความเย็นสดชื่นเต็มพิกัด ปลุกทุกประสาทสัมผัสให้ตื่นตัวพร้อมรับเช้าวันใหม่ หรือเติมความเฟรชระหว่างวันให้ลมหายใจหอมสะอาดยาวนาน</p>
+            <span class="mood-card__more">ดูสินค้า →</span>
+          </a>
+
+          <a class="feature mood-card" data-mood="sweet" href="product.html?mood=sweet">
+            <span class="feature__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.2 6.3L21 12l-6.8 2.7L12 21l-2.2-6.3L3 12l6.8-2.7z"/></svg>
+            </span>
+            <span class="mood-card__tag">Sweet</span>
+            <h3>หวานละมุน อารมณ์ดี</h3>
+            <span class="mood-underline"></span>
+            <p>ความสดชื่นแบบนุ่มนวล ชวนให้ยิ้มได้ตลอดวัน</p>
+            <span class="mood-card__more">ดูสินค้า →</span>
+          </a>
+
+          <a class="feature mood-card" data-mood="confident" href="product.html?mood=confident">
+            <span class="feature__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 9-8 9-8-9z"/></svg>
+            </span>
+            <span class="mood-card__tag">Confident</span>
+            <h3>สุขุม เท่ มั่นใจ ไร้กังวล</h3>
+            <span class="mood-underline"></span>
+            <p>ยกระดับการดูแลช่องปากด้วยพลังดูดซับสิ่งสกปรกอย่างล้ำลึก ขจัดคราบพลัคและกลิ่นไม่พึงประสงค์ เติมความมั่นใจให้พร้อมลุยทุกสถานการณ์สำคัญ</p>
+            <span class="mood-card__more">ดูสินค้า →</span>
+          </a>
+
+          <a class="feature mood-card" data-mood="romance" href="product.html?mood=romance">
+            <span class="feature__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.5-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.5-7 10-7 10z"/></svg>
+            </span>
+            <span class="mood-card__tag">Romance</span>
+            <h3>อบอุ่น ใกล้ชิด ใส่ใจ</h3>
+            <span class="mood-underline"></span>
+            <p>ลมหายใจหอมสะอาด เติมความมั่นใจในทุกช่วงเวลาพิเศษ</p>
+            <span class="mood-card__more">ดูสินค้า →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span class="logo">Fan Di</span>
+      <span>&copy; 2026 Fan Di. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

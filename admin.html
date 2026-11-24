@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>รายการสั่งซื้อ — Fan Di Admin</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .table-wrap { overflow-x: auto; background: var(--color-white); border: 1px solid var(--color-line-soft); }
+    #ordersTable { width: 100%; min-width: 760px; border-collapse: collapse; font-size: .9rem; }
+    #ordersTable th,
+    #ordersTable td { text-align: left; vertical-align: top; padding: 1rem 1.1rem; border-bottom: 1px solid var(--color-line-soft); }
+    #ordersTable th { font-size: .72rem; font-weight: 400; letter-spacing: .18em; text-transform: uppercase; color: var(--color-ink-soft); background: var(--color-linen); white-space: nowrap; }
+    #ordersTable tbody tr:last-child td { border-bottom: 0; }
+    #ordersTable tbody tr:hover { background: var(--color-cream); }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Fan Di</a>
+      <nav class="nav">
+        <a href="index.html">หน้าแรก</a>
+        <a href="admin.html" class="active">รายการสั่งซื้อ</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="cork-band"></div>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Admin</span>
+        <h1 style="font-size: clamp(2rem, 5vw, 3rem);">รายการสั่งซื้อ</h1>
+        <span class="mood-underline" data-mood="confident"></span>
+      </div>
+
+      <div class="table-wrap">
+        <table id="ordersTable">
+          <thead>
+            <tr>
+              <th>วันเวลา</th>
+              <th>ชื่อลูกค้า</th>
+              <th>เบอร์โทร/Line</th>
+              <th>รายการสินค้า</th>
+              <th>จำนวนเงินรวม</th>
+              <th>หมายเหตุ</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span class="logo">Fan Di</span>
+      <span>&copy; 2026 Fan Di. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
